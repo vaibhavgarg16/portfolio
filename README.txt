@@ -1,5 +1,5 @@
                         ꧁ꪚG꧂
 
-				Vaibhav Garg Portfolio
+		Vaibhav Garg Portfolio
 
 Portfolio Link: https://vaibhavgarg.netlify.app
