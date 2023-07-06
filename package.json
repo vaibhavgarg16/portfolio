@@ -10,10 +10,9 @@
   "devDependencies": {
     "browser-sync": "^2.29.3",
     "gulp": "^4.0.2",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-sass": "^5.0.0",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^7.1.0",
     "gulp-rename": "^2.0.0",
@@ -33,5 +32,8 @@
     "opera >= 23",
     "ios >= 7",
     "android >= 4"
-  ]
+  ],
+  "dependencies": {
+    "sass": "^1.63.6"
+  }
 }
