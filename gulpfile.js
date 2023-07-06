@@ -73,7 +73,7 @@ gulp.task('img', function () {
 		.pipe(
 			imageMin([
 				imageMin.gifsicle(),
-				imageMin.jpegtran(),
+				imageMin.mozjpeg(),
 				imageMin.optipng(),
 				imageMin.svgo(),
 				pngQuint(),
