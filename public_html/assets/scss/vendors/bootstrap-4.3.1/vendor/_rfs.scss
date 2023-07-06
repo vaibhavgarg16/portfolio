@@ -54,7 +54,7 @@ $rfs-breakpoint-unit-cache: unit($rfs-breakpoint);
 
 // Remove unit from $rfs-breakpoint for calculations
 @if $rfs-breakpoint-unit-cache == "px" {
-  $rfs-breakpoint: $rfs-breakpoint / ($rfs-breakpoint * 0 + 1);
+  $rfs-breakpoint: calc($rfs-breakpoint / ($rfs-breakpoint * 0 + 1));
 }
 @else if $rfs-breakpoint-unit-cache == "rem" or $rfs-breakpoint-unit-cache == "em" {
   $rfs-breakpoint: $rfs-breakpoint / ($rfs-breakpoint * 0 + 1 / $rfs-rem-value);
@@ -82,7 +82,7 @@ $rfs-breakpoint-unit-cache: unit($rfs-breakpoint);
       $fs: $fs / ($fs * 0 + 1);
     }
     @else if $fs-unit == "rem" {
-      $fs: $fs / ($fs * 0 + 1 / $rfs-rem-value);
+      $fs: $fs / ($fs * 0 + 1 / calc(1 / $rfs-rem-value));
     }
 
     // Set default font-size
