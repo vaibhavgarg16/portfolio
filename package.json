@@ -19,7 +19,7 @@
     "ios >= 7",
     "android >= 4"
   ],
-  "davDependencies": {
+  "dependencies": {
     "browser-sync": "^2.29.3",
     "gulp": "^3.9.1",
     "gulp-sass": "^5.1.0",
