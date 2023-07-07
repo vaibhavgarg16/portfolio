@@ -1,11 +1,12 @@
 @charset "UTF-8";
 /*!
 =========================================================
-* Vaibhav Landing page
+* Meyawo Landing page
 =========================================================
 
-* Copyright: 2023 Vaibhav garg (https://vaibhavgarg.netlify.app)
-* Coded by Vaibhav garg
+* Copyright: 2019 DevCRUD (https://devcrud.com)
+* Licensed: (https://devcrud.com/licenses)
+* Coded by www.devcrud.com
 
 =========================================================
 
@@ -11132,7 +11133,7 @@ p {
 
 .service-card {
   position: relative;
-  min-height: 270px;
+  min-height: 230px;
   border: 1px solid #dee2e6;
   overflow: hidden;
   border-radius: 3px;
@@ -12095,7 +12096,7 @@ pre .code {
 }
 
 .header .header-content .header-title .down {
-  font-size: calc(30px + (65 - 30) * ((100vw - 300px) / (1300 - 300)));
+  font-size: calc(30px + (75 - 30) * ((100vw - 300px) / (1300 - 300)));
   margin-bottom: 0;
   position: relative;
   display: block;
