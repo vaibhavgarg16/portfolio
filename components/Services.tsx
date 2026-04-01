@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { SiteImage } from "@/components/SiteImage";
 import { Section } from "./Section";
 
 const services = [
@@ -47,7 +47,7 @@ export function Services() {
               key={s.title}
               className="rounded-2xl border border-zinc-100 bg-white p-8 text-left shadow-sm transition hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/5 dark:border-zinc-800 dark:bg-zinc-900 dark:hover:shadow-primary/10"
             >
-              <Image
+              <SiteImage
                 src={s.icon}
                 alt=""
                 width={48}
