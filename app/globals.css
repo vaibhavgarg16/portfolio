@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --header-image: url("/imgs/header.jpg");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-ink antialiased transition-colors duration-200 dark:bg-zinc-950 dark:text-zinc-100;
+  }
+}
