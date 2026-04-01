@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --header-image: url("/imgs/header.jpg");
-}
-
 html {
   scroll-behavior: smooth;
 }

@@ -1,5 +1,6 @@
 "use client";
 
+import { SiteImage } from "@/components/SiteImage";
 import { motion } from "framer-motion";
 
 export function Hero() {
@@ -8,10 +9,16 @@ export function Hero() {
       id="home"
       className="relative flex min-h-screen items-center justify-center overflow-hidden bg-zinc-900"
     >
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
-        style={{ backgroundImage: "var(--header-image)" }}
-      />
+      <div className="absolute inset-0 opacity-40">
+        <SiteImage
+          src="/imgs/header.jpg"
+          alt=""
+          fill
+          priority
+          className="object-cover"
+          sizes="100vw"
+        />
+      </div>
       <div className="absolute inset-0 bg-gradient-to-b from-zinc-900/30 via-zinc-900/70 to-zinc-900" />
 
       <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">

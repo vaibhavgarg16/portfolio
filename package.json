@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
+    "build:gh-pages": "NEXT_PUBLIC_BASE_PATH=/portfolio next build",
     "start": "next start",
     "lint": "next lint"
   },

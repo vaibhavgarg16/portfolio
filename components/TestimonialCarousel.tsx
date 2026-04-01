@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import { SiteImage } from "@/components/SiteImage";
 import { useCallback, useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -120,7 +120,7 @@ export function TestimonialCarousel() {
                   }}
                   className="relative h-20 w-20 overflow-hidden rounded-2xl shadow-md ring-2 ring-primary/20 dark:ring-primary/30"
                 >
-                  <Image
+                  <SiteImage
                     src={testimonials[index].image}
                     alt={testimonials[index].name}
                     fill

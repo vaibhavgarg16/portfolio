@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { SiteImage } from "@/components/SiteImage";
 import { Section } from "./Section";
 
 const projects = [
@@ -65,7 +65,7 @@ export function Projects() {
               className="group relative block overflow-hidden rounded-2xl bg-zinc-900 shadow-lg"
             >
               <div className="relative aspect-[4/3]">
-                <Image
+                <SiteImage
                   src={p.image}
                   alt={p.title}
                   fill
