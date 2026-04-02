@@ -73,7 +73,7 @@ export function Navbar() {
         </a>
 
         <ul
-          className={`absolute left-0 right-0 top-full flex flex-col gap-1 border-b border-zinc-200/80 bg-white/98 p-4 md:static md:flex md:flex-1 md:flex-row md:items-center md:justify-center md:gap-8 md:border-0 md:bg-transparent md:p-0 ${
+          className={`absolute left-0 right-0 top-full flex flex-col gap-1 border-b border-zinc-200/80 bg-white/98 p-4 backdrop-blur-md dark:border-white/10 dark:bg-[#212529]/95 md:static md:flex md:flex-1 md:flex-row md:items-center md:justify-center md:gap-8 md:border-0 md:bg-transparent md:p-0 ${
             open ? "flex" : "hidden md:flex"
           }`}
         >
