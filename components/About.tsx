@@ -72,7 +72,7 @@ export function About() {
 
         <div className="mt-12 text-center md:text-left">
           <a
-            href="https://drive.google.com/file/d/1aoE3BaengonVRUFudfbRu_JnKFLMxonB/view?usp=sharing"
+            href="https://drive.google.com/file/d/1eoZ3YpykATAlw1TvpZnzhkfGN7rnKN0S/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex rounded-full border-2 border-primary px-8 py-3 text-sm font-semibold text-primary transition hover:bg-primary hover:text-white dark:hover:text-white"
